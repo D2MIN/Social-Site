@@ -1,0 +1,289 @@
+* {
+  font-family: unset;
+}
+
+.massage {
+  height: 35px;
+  width: 120px;
+  border-radius: 15px;
+  transform: 1s;
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(72, 72, 72);
+}
+.massage:hover {
+  background-color: rgb(133, 181, 253);
+  color: black;
+}
+
+.Head {
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  max-height: 100px;
+  width: 100vw;
+}
+.header .Header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+.header .Header .MenuLink {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5vw;
+}
+.header .Header .MenuLink a {
+  margin: 0px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.header .Header .MenuLink a:hover {
+  transition: 1s;
+  color: #658686;
+}
+.header .Header .Search {
+  display: flex;
+  align-items: center;
+  margin-right: 10vw;
+}
+.header .Header .Search .searchInput {
+  margin: 0px 20px;
+}
+.header .Header .Search .searchInput input {
+  height: 30px;
+}
+.header .Header .Search .searchButton {
+  margin: 0px 10px;
+}
+
+.body {
+  background-color: whitesmoke;
+}
+.body .user-head {
+  height: 30vh;
+  width: 100vw;
+  background: linear-gradient(rgba(200, 200, 238, 0.716), rgba(246, 205, 211, 0.618));
+}
+.body .user-photo {
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: black;
+  border-radius: 100px;
+  position: absolute;
+  left: 15vw;
+  top: 22vh;
+}
+.body .user-photo .img-wrapper {
+  overflow: hidden;
+  border-radius: 120px;
+}
+.body .user-photo .img-wrapper .img {
+  width: auto;
+  height: 200px;
+}
+.body .user-content {
+  min-height: 100vh;
+}
+.body .user-content .user-page-info {
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(214, 214, 214);
+}
+.body .user-content .user-page-info .page-info .popular-info {
+  margin-left: 400px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.body .user-content .page {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 5px;
+}
+.body .user-content .page .user-about {
+  box-shadow: 1px 1px 20px rgb(214, 214, 214);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.body .user-content .page .user-about .about-info {
+  padding: 0px 20px;
+}
+.body .user-content .page .user-about .about-info .name h1 {
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 150%;
+}
+.body .user-content .page .user-about .about-info .id {
+  color: #658686;
+}
+.body .user-content .page .user-about .about-info .id a {
+  text-decoration: none;
+}
+.body .user-content .page .user-about .about-info .descript {
+  margin-top: 30px;
+}
+.body .user-content .page .user-about .about-info .information {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.body .user-content .page .user-about .about-info .photos .photos-wrapper {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.body .user-content .page .user-about .about-info .photos .photos-wrapper .img {
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.body .user-content .page .user-about .about-info .photos .photos-wrapper .img img {
+  width: auto;
+  height: 60px;
+}
+.body .user-content .page .user-friends {
+  box-shadow: 1px 1px 20px rgb(214, 214, 214);
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.body .user-content .page .user-friends .title {
+  font-size: 20px;
+}
+.body .user-content .page .user-friends .user-friend .friend {
+  width: 200px;
+  display: flex;
+  margin: 10px;
+}
+.body .user-content .page .user-friends .user-friend .friend .img {
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+.body .user-content .page .user-friends .user-friend .friend .img img {
+  height: 50px;
+}
+.body .user-content .page .user-friends .user-friend .friend .right {
+  margin-left: 15px;
+  font-size: 12px;
+}
+.body .user-content .page .user-friends .user-friend .friend .right .name-friend {
+  font-weight: 700;
+  display: inline;
+}
+.body .user-content .page .user-friends .user-friend .friend .right .name-friend a {
+  color: #000;
+  text-decoration: none;
+}
+.body .user-content .page .user-friends .user-friend .friend .right .id-friend {
+  display: inline;
+}
+.body .user-content .page .user-friends .user-friend .friend .right .id-friend a {
+  color: #658686;
+  text-decoration: none;
+}
+.body .user-content .page .user-friends .user-friend .friend .right .follow {
+  margin-top: 10px;
+  width: 100px;
+  border-radius: 20px;
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
+.body .user-content .page .user-friends .user-friend .friend .right .follow:hover {
+  transition: 0.5s;
+  background-color: rgb(147, 145, 145);
+  color: white;
+}
+.body .user-content .page .user-posts {
+  box-shadow: 1px 1px 20px rgb(214, 214, 214);
+  background-color: white;
+  padding-top: 20px;
+}
+.body .user-content .page .user-posts .menu {
+  border-bottom: 2px solid black;
+}
+.body .user-content .page .user-posts .menu ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.body .user-content .page .user-posts .menu ul a {
+  color: #000;
+  text-decoration: none;
+}
+.body .user-content .page .user-posts .menu ul a:hover {
+  border-bottom: 2px solid #658686;
+}
+.body .user-content .page .user-posts .menu ul .activ {
+  font-weight: 700;
+}
+.body .user-content .page .user-posts .post {
+  padding: 0px 50px 0px 40px;
+}
+.body .user-content .page .user-posts .post .post-head {
+  margin-top: 30px;
+  display: flex;
+}
+.body .user-content .page .user-posts .post .post-head .avatar {
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.body .user-content .page .user-posts .post .post-head .name {
+  font-weight: 700;
+  margin-left: 20px;
+}
+.body .user-content .page .user-posts .post .content {
+  margin-left: 20px;
+}
+.body .user-content .page .user-posts .post .content .img-wrapper {
+  overflow: hidden;
+  height: 200px;
+  width: 31vw;
+  border-radius: 20px;
+}
+.body .user-content .page .user-posts .post .content .img-wrapper img {
+  width: 31vw;
+}
+.body .user-content .page .user-posts .post .likes {
+  width: 31vw;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.body .user-content .page .user-posts .post .likes button {
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  cursor: pointer;
+}/*# sourceMappingURL=App.css.map */
