@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    max-height: 100px;
+    width: 100vw;
+  }
+  .header .Header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+  }
+  .header .Header .MenuLink {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+  }
+  .header .Header .MenuLink a {
+    margin: 0px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .header .Header .MenuLink a:hover {
+    transition: 1s;
+    color: #5cb6b6;
+  }
+  .header .Header .Search {
+    display: flex;
+    align-items: center;
+    margin-right: 10vw;
+  }
+  .header .Header .Search .searchInput {
+    margin: 0px 20px;
+  }
+  .header .Header .Search .searchButton {
+    margin: 0px 10px;
+  }

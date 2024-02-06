@@ -1,0 +1,40 @@
+.dialog{
+    display: flex;
+    border: 2px solid rgba(216, 216, 216, 0.497);
+    margin: 10px 30px;
+    padding: 10px;
+    transition: 1s;
+    background-color: white;
+}
+
+.dialog:hover{
+    transition: 1s;
+    background-color: rgb(255, 238, 250);
+}
+
+.dialog__wrapper_right{
+    margin-left: 20px;
+}
+
+.avatar{
+    overflow: hidden;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    img{
+        height: 50px;
+    }
+}
+
+.none{
+    background-color: rgb(180, 173, 208);
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:monospace;
+}
+
+.last_massege{}

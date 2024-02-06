@@ -2,7 +2,12 @@
   font-family: unset;
 }
 
-.massage {
+.searchInput{
+  height: 30px;
+  margin-right: 10px;
+}
+
+.button {
   height: 35px;
   width: 120px;
   border-radius: 15px;
@@ -11,7 +16,7 @@
   background-color: rgb(255, 255, 255);
   color: rgb(72, 72, 72);
 }
-.massage:hover {
+.button:hover {
   background-color: rgb(133, 181, 253);
   color: black;
 }
@@ -20,7 +25,7 @@
   overflow: hidden;
 }
 
-.header {
+/* .header {
   position: fixed;
   z-index: 1;
   background-color: white;
@@ -61,7 +66,7 @@
 }
 .header .Header .Search .searchButton {
   margin: 0px 10px;
-}
+} */
 
 .body {
   background-color: whitesmoke;
@@ -96,6 +101,7 @@
   background-color: white;
   box-shadow: 1px 1px 20px rgb(214, 214, 214);
 }
+
 .body .user-content .user-page-info .page-info .popular-info {
   margin-left: 400px;
   margin-right: 100px;
@@ -106,8 +112,9 @@
 }
 .body .user-content .page {
   width: 70%;
+  padding-top: 30px;
   margin-left: 15%;
-  margin-top: 70px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 5px;
@@ -119,7 +126,7 @@
   justify-content: center;
   background-color: white;
 }
-.body .user-content .page .user-about .about-info {
+/* .body .user-content .page .user-about .about-info {
   padding: 0px 20px;
 }
 .body .user-content .page .user-about .about-info .name h1 {
@@ -158,10 +165,12 @@
 .body .user-content .page .user-about .about-info .photos .photos-wrapper .img img {
   width: auto;
   height: 60px;
-}
+} */
 .body .user-content .page .user-friends {
   box-shadow: 1px 1px 20px rgb(214, 214, 214);
   background-color: white;
+  height: 500px;
+  width: 250px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -170,7 +179,7 @@
 .body .user-content .page .user-friends .title {
   font-size: 20px;
 }
-.body .user-content .page .user-friends .user-friend .friend {
+/* .body .user-content .page .user-friends .user-friend .friend {
   width: 200px;
   display: flex;
   margin: 10px;
@@ -217,8 +226,8 @@
   transition: 0.5s;
   background-color: rgb(147, 145, 145);
   color: white;
-}
-.body .user-content .page .user-posts {
+} */
+.body .user-content .content-wrapper {
   box-shadow: 1px 1px 20px rgb(214, 214, 214);
   background-color: white;
   padding-top: 20px;
@@ -242,7 +251,7 @@
 .body .user-content .page .user-posts .menu ul .activ {
   font-weight: 700;
 }
-.body .user-content .page .user-posts .post {
+/* .body .user-content .page .user-posts .post {
   padding: 0px 50px 0px 40px;
 }
 .body .user-content .page .user-posts .post .post-head {
@@ -286,4 +295,4 @@
   background-color: white;
   font-size: 24px;
   cursor: pointer;
-}/*# sourceMappingURL=App.css.map */
+}# sourceMappingURL=App.css.map */

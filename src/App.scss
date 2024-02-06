@@ -2,7 +2,7 @@
     font-family: unset;
 }
 
-.massage {
+.button {
     height: 35px;
     width: 120px;
     border-radius: 15px;
@@ -197,6 +197,7 @@
             .user-friends {
                 box-shadow: 1px 1px 20px rgb(214, 214, 214);
                 background-color: white;
+                height: 45vh;
                 display: flex;
                 justify-content: start;
                 align-items: center;

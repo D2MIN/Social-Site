@@ -1,0 +1,40 @@
+.about-info {
+    padding: 0px 20px;
+  }
+.about-info .name h1 {
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 150%;
+  }
+.about-info .id {
+    color: #658686;
+  }
+.about-info .id a {
+    text-decoration: none;
+  }
+.about-info .descript {
+    margin-top: 30px;
+  }
+.about-info .information {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+.about-info .photos .photos-wrapper {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+.about-info .photos .photos-wrapper .img {
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+.about-info .photos .photos-wrapper .img img {
+    width: auto;
+    height: 60px;
+  }
